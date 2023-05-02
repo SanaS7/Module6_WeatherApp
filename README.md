@@ -5,3 +5,4 @@ This is a weather app project implemented in HTML, CSS, and JavaScript. It provi
 ![Capture](https://user-images.githubusercontent.com/126742643/235772709-23147594-1081-417f-b9d1-325f51584c59.PNG)
 
 
+Link to depoloyed application --> http://127.0.0.1:5500/index.html 
