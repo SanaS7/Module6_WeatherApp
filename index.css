@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin: 10px;
+}
+#dashLabel {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    /* background-color: #f5f5f5; */
+    background: linear-gradient(to right, #465AB8, #261360);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    margin: 0 0 1rem 0;
+
+}
+
+.weatherDiv {
+    display: flex;
+}
+
+.searchDisplay {
+    flex-basis: 20%;
+    flex-grow: 0;
+}
+
+.resultDisplay {
+    flex-basis: 80%;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.searchLabel {
+    display: block;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 5px;
+}
+
+input {
+    margin: 2.5%;
+    border-radius: 5px;
+    height: 1.7rem;
+    width: 95%;
+    border: 1px solid rgb(203, 210, 216);
+    color: rgb(120, 124, 128);
+}
+
+button {
+    width: 90%;
+    margin: 5%;
+    border: none;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 1.7rem;
+    background-color: #6991E3;
+    color: white;
+    
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.history label {
+    background-color: rgba(160, 159, 159, 0.5);
+    width: 95%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mainDisplay {
+    /* font-size: 40px; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 1px solid black;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.nameImg{
+    /* width: 4px;
+    height: 200%; */
+    height: 2rem;
+}
+#nameLabel{
+    font-weight:bolder;
+    font-size: larger;
+    display: flex;
+    justify-content: baseline;
+    /* justify-content: left; */
+    /* display: inlineblox; */
+}
+
+.mainDisplay label:not(:nth-child(1)){
+    font-size:12px;
+}
+.fLabel{
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.fiveDayForecast{
+    display: flex;
+    justify-content: space-between;
+}
+.fiveDayForecast div{
+    display: flex;
+    flex-direction: column;
+    background-color: #323D4F;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+    font-size: 20px;
+    width: 15%;
+    height: 4%;
+
+}
